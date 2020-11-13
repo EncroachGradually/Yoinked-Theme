@@ -2,22 +2,46 @@
 metatype: css
 --- 
 
+/* DARK
+#2e3440
+#3b4252
+#434c5e
+#4c566a
+
+LIGHT
+#d8dee9
+#e5e9f0
+#eceff4
+
+FROST 
+#8fbcbb
+#88c0d0
+#81a1c1
+#5e81ac
+
+Aurora
+#bf616a
+#d08770
+#ebcb8b
+#a3be8c
+#b48ead */
+
 :root {
-	--background-color: #29363D;
-  --dimmed-text-color: #A3CCA6;
-	--dimmed-border-color: #A3CCA6;
-  --body-text-color: #A3CCA6;
-  --post-title-color: #A3CCA6;
-  --post-date-color: #B06F6F;
-  --post-text-color: #CAD2C5;
-	--page-menu-link-color: #A3CCA6;
-  --header-author-name: #A3CCA6;
+	--background-color: #4c566a;
+  --dimmed-text-color: #88c0d0;
+	--dimmed-border-color: #88c0d0;
+  --body-text-color: #d8dee9;
+  --post-title-color: #88c0d0;
+  --post-date-color: #b48ead;
+  --post-text-color: #d8dee9;
+	--page-menu-link-color: #b48ead;
+  --header-author-name: #b48ead;
   --header-listed-name: #CAD2C5;
-  --more-from-border-color: #A3CCA6;
+  --more-from-border-color: #81a1c1;
   --bio-color: #CAD2C5;
-  --wordcount-color: #B06F6F;
+  --wordcount-color: #81a1c1;
   --link-color: #62B8FF;
-  --header-border-color: #B06F6F;
+  --header-border-color: #5e81ac;
 }
 
 html {
@@ -37,7 +61,7 @@ hr {
 		height: 35px;
 		margin-left: auto;
 		margin-right: auto;
-		background-color: #29363D;
+		background-color: #2e3440;
 	}
 
 
@@ -53,11 +77,11 @@ div.author-name {
 
 mark {
   background-color: #314049;
-  color: black;
+  color: #2e3440;
 }
 
 strong {
-	color: #61A867;
+	color: #d08770;
 }
 
 /* Use Monospace for Headers and Titles */
@@ -73,7 +97,7 @@ h3 {
 
 /* Material Style for Post Containers */
 .post-content {
-	background: #314049;
+	background: #4c566a;
 	padding: 1rem;  	
   border-radius: 5px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -135,7 +159,7 @@ div.single-post-show.author-post .post-content:hover {
 div.single-post-show.author-post .post-content .post-date {
 	position: absolute;
     bottom: 0;
-  	color: #B06F6F;
+  	color: #b48ead;
 }
 
 div.single-post-show.author-post .post-content .post-title {
@@ -148,7 +172,7 @@ div.single-post-show.author-post .post-content .post-title a:visited {
 }
 
 .post-content {
-  border: 0.5px solid #B06F6F;
+  border: 0.5px solid #5e81ac;
 }
 
 #tbl {
